@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid rebeccapurple;
+        }
+
+
+
+        table {
+            width: 100%;
+            border: 2px solid red;
+            border-collapse: collapse;
+            border-spacing: 5px;
+
+
+        }
+
+
+        th {
+            background-color: aqua;
+            font-size: 20px;
+        }
+
+        td {
+            font-size: 20px;
+            padding: 6px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <h1>Table Learning </h1>
+    <p>By default, the text in <th> elements are bold and centered, but you can change that with CSS.</p>
+
+    <table>
+
+        <tr>
+
+            <th>S.NO </th>
+            <th> Name </th>
+            <th>Comapny </th>
+            <th>Designation </th>
+
+        </tr>
+
+        <tr>
+
+            <td>1 </td>
+            <td>Noorul </td>
+            <td>Fluee</td>
+            <td>Developer</td>
+
+        </tr>
+
+        <tr>
+
+            <td>2</td>
+            <td>Saquib Bhai</td>
+            <td>Cognizant</td>
+            <td>Devloper</td>
+
+        </tr>
+
+        <tr>
+
+            <td>3</td>
+            <td>Hamdan</td>
+            <td>Fluree</td>
+            <td>Data Eng.</td>
+
+        </tr>
+
+
+
+    </table>
+    <h2>Merging the column</h2>
+
+    <table>
+
+        <tr>
+
+
+
+        </tr>
+        <th colspan="2">EMployee</th> <!-- it will take space equialent to that no. -->
+
+        <tr>
+
+
+            <td>Cognizant</td>
+            <td>Devloper</td>
+
+        </tr>
+
+    </table>
+</body>
+
+</html>

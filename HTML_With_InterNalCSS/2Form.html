@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+
+    <style></style>
+
+</head>
+
+<body>
+    <h1>Employee Registration</h1>
+    <form action="/SignUp" name="Employee" method="POST">
+
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" maxlength="30"> <br> <br>
+
+        <label for="lname" name="lname" id="lname" maxlength="20">Last Name: </label>
+        <input type="text">
+
+        <br><br>
+
+        <label for="pos"> Postion</label>
+
+        <select name="position" id="pos">
+
+
+            <option value="An">Android Dev</option>
+            <option value="We">Web Dev</option>
+            <option value="Da">Data Eng</option>
+            <option value="HR">HR</option>
+
+        </select>
+
+
+        <label for="exp">Experience</label>
+
+        <select name="exp" id="exp">
+
+            <option value="fr">0 Yrs</option>
+            <option value="mo">8 Months</option>
+            <option value="2y">2 Yrs</option>
+            <option value="3y">3 Yrs</option>
+            <option value="10">10 Yrs</option>
+
+
+
+        </select>
+        <br><br>
+        <label for="skills"> Skills: </label>
+        <input type="checkbox" name="c++"> C++
+        <input type="checkbox" name="java"> JAVA
+        <input type="checkbox" name="python"> Python
+
+        <br>
+        <br>
+        <label for="jt">Job Type: </label>
+        <input type="radio" name="jt"> Full-Time
+        <input type="radio" name="jt"> Part-Time
+        <input type="radio" name="jt"> Contract
+
+        <br><br>
+        <label for="ta">Additonal Information:</label> <br>
+
+        <textarea name="comments" id="" cols="30" rows="5"></textarea>
+
+        <br><input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
