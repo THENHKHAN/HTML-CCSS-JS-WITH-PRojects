@@ -11,15 +11,27 @@
 <body>
     <!-- focus here: Google uses q as key for search url  -->
     <!-- https://www.google.com/search?q=cats&rlz=1C1VDKB_enIN1026IN1026&oq=cats&aqs=chrome.0.0i271j46i67i131i433j0i67j0i67i131i433i457j0i402j46i433i512j0i433i512j46i131i433i512j0i433i512j46i512.1150j0j15&sourceid=chrome&ie=UTF-8 -->
+    <!-- above output  is when i searched on google cats  -->
     <form action="https://www.google.com/search" method="GET">
+        <form>
+            <!-- https://www.google.com/search?q=cats          thats y used q : q=cats this is query -->
+            <input type="search" name="q" placeholder="Search Your Query Here">
+            <!-- <input type="submit" value="Submit"> -->
+            <button>Submit</button>
 
 
-        <!-- https://www.google.com/search?q=cats          thats y used q : q=cats this is query-->
-        <input type="search" name="q" placeholder="Search Your Query Here">
-        <!-- <input type="submit" value="Submit"> -->
-        <button>Submit</button>
 
-    </form>
+            <!--***************** ************************** for testing ************************** -->
+            <!-- this is how i am doing reverse engineering  -->
+
+            <!-- <input type="text" name="f_name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="example@gmai.com">
+        <input type="password" name="password" placeholder="password">
+        <button>Submit</button> -->
+            <!-- below is the output  in the URL when we press submit   -->
+            <!-- http://127.0.0.1:5500/HTML_With_InterNalCSS/2FormsAsSearchEngine.html?f_name=abc&email=abc%40gmail.com&password=123 -->
+            <!--***************** ************************** for testing ************************** -->
+        </form>
 
 
 </body>
