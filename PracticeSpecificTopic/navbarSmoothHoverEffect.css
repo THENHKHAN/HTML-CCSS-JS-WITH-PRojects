@@ -1,0 +1,55 @@
+
+*,a , li{
+    /* margin: 0;
+    padding: 0; */
+    /* text-decoration: none; */
+    list-style: none;
+    
+}
+body{
+    background-color: #1C2A44;
+}
+
+h1{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+ ul{
+    width: 450px;
+    display: flex;
+    border: 0.1px solid #099FFF;
+    border-radius: 25px;
+    margin: 5%;
+    padding: 25px 0;
+    background-color: #18181B;
+    box-shadow: 0 4px 8px 0 #00ffff , 0 6px 20px 0 rgb(0,0,0,19);
+
+
+  
+} 
+
+li{
+     
+    margin: auto; /* by this it will automatically get the space around and same gap  */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+li:after {
+    display: block;
+}
+
+/* ul li:hover:after{
+    transform: scaleX(1);
+    /* background-color: aliceblue; */
+    /* border-bottom: 3px solid #00ffff; */
+
+/* } */ 
+li:hover{
+    transform: scaleX(1);
+    /* background-color: aliceblue; */
+    border-bottom: 3px solid #00ffff;
+
+}
