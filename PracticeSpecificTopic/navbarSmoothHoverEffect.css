@@ -10,22 +10,30 @@ body{
     background-color: #1C2A44;
 }
 
-h1{
+h1,h3{
     color: aliceblue;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+}
+h3{
+    color: #077979;
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    font-size: 24px;
 }
  ul{
+   
     width: 450px;
     display: flex;
     border: 0.1px solid #099FFF;
     border-radius: 25px;
-    margin: 5%;
+    /* margin: 5%; */
+    margin: auto;
     padding: 25px 0;
     background-color: #18181B;
     box-shadow: 0 4px 8px 0 #00ffff , 0 6px 20px 0 rgb(0,0,0,19);
-
-
-  
 } 
 
 li{
@@ -34,22 +42,23 @@ li{
     color: white;
     font-size: 20px;
     cursor: pointer;
-
+    position: relative;
 }
 
-li:after {
-    display: block;
+li::after{ /* we;re making pseudo container for fine line  */
+    content: '';
+    position: absolute;/*so that it can act as li elements.Since we made li as relative.*/
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    height: 1px;/*so that it height will show as little height of container*/
+    width:0px; /*so that it starts from 0width*/
+    /* background-color: #fff; */
+    background-color: #00ffff;
+    transition: all 0.4s;
+    border-radius: 10px;
 }
 
-/* ul li:hover:after{
-    transform: scaleX(1);
-    /* background-color: aliceblue; */
-    /* border-bottom: 3px solid #00ffff; */
-
-/* } */ 
-li:hover{
-    transform: scaleX(1);
-    /* background-color: aliceblue; */
-    border-bottom: 3px solid #00ffff;
-
+li:hover::after{
+    width: 100%; 
 }
