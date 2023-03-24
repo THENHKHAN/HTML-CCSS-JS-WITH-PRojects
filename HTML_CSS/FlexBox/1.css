@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  background-color: orange;
+  margin: 10px;
+  padding: 6px;
+  border: 2px dotted red;
+}
+
+div {
+  background-color: purple;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
