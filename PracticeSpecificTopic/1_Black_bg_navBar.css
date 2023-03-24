@@ -1,0 +1,103 @@
+
+/* google fonts  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(134, 172, 172); */
+background-image: url(/Images/girl\ black\ BG.jpg);
+
+background-size: cover;
+/* background-position: center; */
+height: 100vh;
+width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px ;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 40px 10px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.logo span{
+    color: rgb(249, 13, 13);
+}
+
+.navBar ul li a:hover {
+color: rgb(249, 13, 13);
+transition: 0.3s;
+}
+.navBar ul li a{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.action_button a {
+    font-size: 18px;
+    font-weight: bold;
+}
+.action_button {
+
+    background-color: rgb(236, 48, 48);
+    /* color: rgb(0, 0, 0); */
+    padding: 10px;
+    /* font-size: 15px; */
+    border-radius: 10px;
+    border: 2px solid rgb(239, 231, 231);
+    /* font-weight: bold; */
+    transition: 0.5s;
+}
+
+.action_button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width:899px) {
+   .navBar {
+flex-direction: column;
+align-items: center;
+/* extra  */
+/* border: 2px solid yellow; */
+width: 50%;
+justify-content: center;
+margin-left: 210px;
+box-shadow:  4px 3px 8px 3px rgba(207, 207, 218, 0.2);
+   }
+   .logo{
+    padding-right: 50px;
+   }
+ .navBar .links {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .action_button {
+    width: 50%;
+   }
+}
+
+
