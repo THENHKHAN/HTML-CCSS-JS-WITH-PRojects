@@ -13,7 +13,24 @@ function paint (color) {
      console.log("finished");
 }
 
-// function paint(color) {
-//   const circle = document.getElementById('circleID_toToMakeDynamic');
-//   circle.style = `background-color:${color}`;
-// }
+function randomColors() {
+
+    const getCircle = document.getElementById("circleID_toToMakeDynamic")
+    const getRandomButton = document.getElementById("randomCol")
+    console.log(`circle: ${circleID_toToMakeDynamic}`);
+    console.log(`getRandomButton: ${getRandomButton}`);
+    
+       var colors = [
+            '#ff0000', '#00ff00', '#0000ff',
+            '#ff3333', '#ffff00', '#ff6600',
+            '#ff3332', '#ffef00', '#ff6610'
+        ];
+          
+        // selecting random color
+        var random_color = colors[(Math.floor(
+                Math.random() * colors.length))];
+
+        getCircle.style =`background-color:${random_color}`
+        console.log(`color Code: ${random_color}`)
+} 
+
