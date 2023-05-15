@@ -17,14 +17,14 @@ function randomColors() {
 
     const getCircle = document.getElementById("circleID_toToMakeDynamic")
     const getRandomButton = document.getElementById("randomCol")
-    console.log(`circle: ${circleID_toToMakeDynamic}`);
+    console.log(`circle: ${getCircle}`);
     console.log(`getRandomButton: ${getRandomButton}`);
     
        var colors = [
             '#ff0000', '#00ff00', '#0000ff',
             '#ff3333', '#ffff00', '#ff6600',
             '#ff3332', '#ffef00', '#ff6610'
-        ];
+        ]; // letter we'll do it more adv
           
         // selecting random color
         var random_color = colors[(Math.floor(
