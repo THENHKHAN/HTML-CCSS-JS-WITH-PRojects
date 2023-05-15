@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 40px;
+    /* background-color: #fff; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px  rgba(0,0,0,.05);
+}
+
+.logo a{
+    text-decoration: none;
+    color: #333;
+    /* background-color: rgb(255, 128, 0); */
+    /* border: 2px solid red; */
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navBar {
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+
+}
+
+.navBar .links {
+    position: relative;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navBar .links li {
+    list-style: none;
+
+}
+
+.navBar .links li a {
+
+    text-decoration: none;
+    position: relative;
+    font-size: 1.1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* using pseudo container before. so that we can apply something after some time */
+
+.navBar .links li a::before {
+
+content: '';
+position: absolute; 
+bottom: -2px;
+left: 0;
+width: 100%;
+height: 2px;
+background: #333;
+transform: scaleX(0);
+transition: transform 0.5s ease-in-out;
+transform-origin: right;
+
+
+}
+
+.navBar .links li a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);  
+}
+
+
+/* lets make the search and close icon relative so that we can aply position property   */
+.navBar .search{
+position: relative ; 
+border: 2px solid red;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5em;
+z-index: 10; /* so that only these two symbol dispolayed when someone search */
+cursor: pointer;
+}
+
+.searchBox{
+    
+    position: absolute; /* since its parent is positined hence if we apply absolute then we can position  is according to header and not its own current positon */
+
+    /* left: 0;  so see myself for designing*/
+    right: -100%; /* to not show initially on header without clicking on the search icon */
+
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* border: 2px solid rgb(13, 255, 0); */
+
+/* covered the whole herader so that when someone searched then they write in a  large box and other element will vanish */
+
+padding: 0 30px;
+transition: 0.5s ease-in-out;
+}
+
+
+.searchBox.active {  /* .searchBox .active Is WRONG DON'T Give any Gap */
+
+right: 0;
+    
+}
+/* now lets design input  */
+.searchBox input{
+
+/* right: 100%; */
+width: 100%;
+height: 50px;
+border: none;
+outline: none;
+color: #333 ;
+font-size: 1.25em;
+background: #fff;
+border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+
+
+
+ /* now lets working on buttons or icons close and search  */
+
+ .searchBtn {
+
+    position: relative;
+    left: 30px;
+    top: 2.5px;
+    transition: 0.5s ease-in-out;
+
+ }
+
+ 
+.searchBtn.active {  /* .searchBox .active Is WRONG DON'T Give any Gap */
+
+left: 0;
+    
+}
+
+
+
+ .closeBtn{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    scale: 0; /* It increases the size of close button as we incre number*/
+ }
+
+  .closeBtn.active{ /* i.e.when search click then close should active. */
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ;
+    scale: 1;
+ }
+
+  .menuToggle {
+    
+    position: relative;
+    display: none;
+ }
+ 
+  /* now let's make it responsive  */
+
+

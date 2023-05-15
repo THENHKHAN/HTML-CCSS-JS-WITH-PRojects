@@ -1,0 +1,54 @@
+
+
+body{
+
+    width: 100%;
+   max-height: 100vh;
+   background-color: beige;
+ 
+}
+
+/* utility class */
+.text_center ,button {
+    text-align: center;
+     cursor: pointer;
+}
+
+.subHeading{
+    font-size: 18px;
+}
+.circle {
+
+  border: 1px solid #000000;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* text-align: center;  to make text center of parent*/
+  margin: auto; /* to make it center */
+  
+}
+
+
+.action {
+  display: flex ;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  /* border: 2px solid red; */
+
+}
+
+.action button{
+
+    width: 80px;
+    height: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+    font-size: 18px;
+}
+button:hover{
+
+background-color: rgb(183, 180, 180);
+transition: ease-in-out;
+transition-duration:.5s
+}
