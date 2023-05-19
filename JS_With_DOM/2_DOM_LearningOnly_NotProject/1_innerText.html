@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerText Property</title>
+
+
+</head>
+
+<body>
+
+    <!-- <div class="container"> -->
+    <h1>The Element Object</h1>
+    <h2>The innerText Property</h2>
+
+
+    <p id="desc">The text content of the button element is:</p>
+
+    <strong>
+        <center>Below will be added the above content using JS </center>
+    </strong>
+    <h2 id="useHere"> </h2>
+    <h2 id="useHere1"> hhhhhh </h2>
+    <!-- </div> -->
+    <script>
+
+        let getDesc = document.getElementById("desc");
+        console.log(`getVar: ${getDesc}`)
+        console.log("And content :-> " + getDesc.innerHTML)
+        let addCont = document.getElementById("useHere")
+        let cont = getDesc.innerHTML
+        addCont.innerHTML = cont // content replaced
+        addCont.style.color = "red" // now changing color
+        // can't use cont for style Since in cont- content is there not html element. And for styling we element i.e. with tag
+        let temp = document.getElementById("useHere1")
+        temp.style.color = "blue"
+
+
+
+    </script>
+</body>
+
+</html>

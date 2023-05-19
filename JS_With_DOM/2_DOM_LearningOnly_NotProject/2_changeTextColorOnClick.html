@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick()Event</title>
+</head>
+
+<body>
+
+    <h1> Learning onclick() event </h1>
+    <h3 onclick="changeText(id)" id="txt">Click me to change my color</h3>
+
+    <button onclick="changeText(id)" id="btn">Click me to change above Text color </button>
+
+    <script>
+        console.log("working JS ")
+
+        function changeText(rcvId) {
+            console.log("ID from onclick EVENT: " + rcvId)
+
+
+            //  console.log(ev.currentTarget.id) other way to get id
+            let txt = document.getElementById("txt") // get element
+            let btn = document.getElementById("btn") // get element
+            if (txt.id == rcvId) {
+                console.log(txt)
+                console.log(txt.innerText) // get content
+                txt.style.color = "red"
+                console.log(`textID: ${txt.id}`)
+            }
+            if (btn.id == rcvId) {
+
+                console.log(txt)
+                console.log(btn.innerText) // get content
+                txt.style.color = "blue"
+                console.log(`ButtonID: ${btn.id}`)
+            }
+
+            //  if (btn.id == "btn") 
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
