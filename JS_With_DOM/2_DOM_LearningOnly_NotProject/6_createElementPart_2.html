@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Working with elements</title>
+</head>
+
+<body>
+    <div id="div1">The text above has been created dynamically.Also addEventListener USED.</div>
+
+    <h3> Whenever your mouse or curser enter in document area every time new element will be created and displayed on
+        the document.
+    </h3>
+
+    <script>
+
+        // document.body.onload = addElement;
+        document.addEventListener("mouseenter", addElement) // i.e.(when, what)
+        function addElement() {
+            // create a new div element
+            const newDiv = document.createElement("h1");
+            newDiv.id = "headingID"
+            // and give it some content
+            const newContent = document.createTextNode("Hi there and greetings As Heading!. I am Added Because your mouse is entered in document are of page.");
+
+            // add the text node to the newly created div
+            newDiv.appendChild(newContent);
+
+            // add the newly created element and its content into the DOM
+            const currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+
+            // tp see on console :
+            console.log(`Created ele : ${newDiv}`)
+            console.log(`Created ID : ${newDiv.id}`)
+        }
+    </script>
+</body>
+
+</html>

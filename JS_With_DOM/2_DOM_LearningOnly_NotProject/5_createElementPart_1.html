@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement()</title>
+</head>
+
+<body>
+
+
+    <h1>The Document Object</h1>
+    <h2>The createElement() Method</h2>
+    <h3>let newElementAddInDocument = document.createElement(htmlTag)</h3>
+    <strong>Create a p element with some text:</strong>
+
+
+
+    <script>
+
+        // Create element:
+        const para = document.createElement("p"); // para rcv and paragraph i.e.HTMLParagraphElement object
+        para.innerText = "This is a paragraph."; // content adding in p node or Element
+        //div.innerHTML = '<p>CreateElement example</p>'; // content adding in html form
+        para.id = "par"; // giving id
+        para.className = "parClass";
+        // Append to body:
+        document.body.appendChild(para); // since its a child of body
+
+        // lets see on console that whether they are added or not
+
+        console.log(`Created ele : ${para}`)
+        console.log(`Created ID : ${para.id}`)
+        console.log(`Created className : ${para.className}`) 
+    </script>
+
+</body>
+
+</html>
