@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(188, 92, 92);
+}
+
+.container {
+  border: 2px solid rebeccapurple;
+}
+.heading {
+  color: rgb(225, 255, 0);
+  text-align: center;
+}
+
+.head_instruction {
+  display: flex;
+  flex-direction: column;
+}
+.Instruction {
+  text-align: center;
+  font-size: 20px;
+}
