@@ -1,0 +1,13 @@
+1) How to use src property and apply it in image element.
+and load the image dynamically with the help of list of element of
+array. There is list gifts = [] . How to combinely use 
+path from local and JS array object.
+
+2) How to use filter function. How to create element and append child within.
+
+3) How to use adding footer with CopyRight that will display always current year.
+By using Date() with getYear() function.
+
+4) How to set image property: src ,alt , height , width 
+all using JS.
+
