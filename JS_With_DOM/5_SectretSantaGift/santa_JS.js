@@ -29,9 +29,7 @@ function play() {
   santaElem.innerText = "";
   santaElem.innerText = Santa;
 
-  //   childElem.innerHTML = Child;
-  //   santaElem.innerHTML = Santa;
-  giftItem_Id.innerHTML = "";
+  giftItem_Id.innerHTML = ""; // clearing previous or existing content
   gift_img_elemCreate = document.createElement("img");
   // creating img element inside the gift-id to display image
   giftItem_Id.appendChild(gift_img_elemCreate);
@@ -51,4 +49,4 @@ const addToFooter = () => {
 };
 
 addToFooter();
-play();
+// play(); don't use since JS will call this when Click event will occur.
