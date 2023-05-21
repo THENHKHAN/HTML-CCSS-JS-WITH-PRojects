@@ -1,0 +1,39 @@
+
+                        How TO - Toggle Dark Mode
+
+Task: Switch between dark and light mode with CSS and JavaScript.
+
+
+Explanation : 
+
+Toggle Dark/Light Mode
+Click the button to toggle between dark and light mode for this page.
+
+-> Below, we will create a simple webpage using HTML, CSS, and JavaScript. Also, we will learn to implement the light and dark modes using JavaScript and CSS.
+
+
+
+
+
+                        What I Have learnt from this ????????????
+
+---> How to use and apply Position(revisoned) : relative and absolute
+
+--> classList : 
+        The classList property returns the CSS classnames of an element. The classList property returns a DOMTokenList(It is a set of space separated tokens.). 
+        After classList by using add() function we can add class to any HTML element after getting their id(or element.) And we can appy CSS in that class as well well.
+        Link: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_classlist_add
+        see here But copy the code in your local and then open it in browser and go to inspect and see how the add() fuction adding the class and since we know the class name it had earlier the CSS in CSS(using embeded CSS. Can also be used in external css)
+
+   i) It has toggle method as well to toggle. This is also ise gor adding class dynamicall BUT the DIFFERENCE is:
+
+        a) add function is used to just add the class name to the elemnt.
+        b) toggle: it will toggle i.e. remove the class at one click and add at one click . So toggle can do two work 
+        For more sue the above link and see once set ad and then set toggle() and see the result after pressing button on web. 
+toggle meaning : 
+            a key or command that is operated the same way but with opposite effect on successive occasions.
+        OR
+             switch from one effect, feature, or state to another by using a toggle.
+
+--> How  to use onclick EVENT in JS with document.getElement("mode").onclick ALong with the ARRAOW FUNCTION.
+
