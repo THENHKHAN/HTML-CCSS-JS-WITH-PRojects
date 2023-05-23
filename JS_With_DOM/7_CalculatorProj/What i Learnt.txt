@@ -1,0 +1,41 @@
+
+Remark-1: Whatever JS i am using is absolutly for learning purpose. So code may be messy (Because i am building foundation that's why not using hidden OR short cut way for calculation )
+
+Remark-2: Later we improve
+
+Array.from() :
+
+The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.Means it will return an array .Benefit: So that we can use forEach Loop.
+
+
+SybTax:
+    Array.from(arrayLike)
+    Array.from(arrayLike, mapFn)
+    Array.from(arrayLike, mapFn, thisArg)
+
+            arrayLike : 
+            An iterable or array-like object to convert to an array.
+
+ Return value:
+            A new Array instance.
+
+Array.from() lets you create Arrays from:
+
+         -->   iterable objects (objects such as Map and Set); or, if the object is not iterable,
+         -->   array-like objects (objects with a length property and indexed elements).
+
+Array.from("foo");
+// [ "f", "o", "o" ]
+
+forEach: 
+
+        The forEach() method executes a provided function (it could be arrow or normal user define function)once for each array element.
+
+        const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+array1.forEach((element) => console.log(element)); // both are similar
+OR
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
