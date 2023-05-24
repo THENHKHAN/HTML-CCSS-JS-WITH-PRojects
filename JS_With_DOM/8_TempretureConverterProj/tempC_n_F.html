@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempConverter</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(96, 182, 153);
+        }
+
+        .container {
+
+            border: 1px solid red;
+            margin-top: 100px;
+            text-align: center;
+            width: 100%;
+            height: 300px;
+            background-color: aqua;
+        }
+
+        .title {
+
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        .content_container {
+
+            /*   border: 1px solid grey; */
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+
+        }
+
+        .equal {
+
+            font-size: 35px;
+            padding: 30px 3px;
+            font-weight: bolder;
+
+        }
+
+        .celsiusContainer {
+            border: 1px solid green;
+        }
+
+        .fahrenheitContainer {
+            border: 1px solid green;
+        }
+
+
+        .desc {
+            border-top: 1px solid green;
+            background-color: #ded2d2;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        span {
+            display: block;
+            margin-top: 8px;
+        }
+
+        input {
+            background-color: whitesmoke;
+            border: none;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        .inpBox {
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <h2 class="title">Tempreture Converter - By NHKHAN</h2>
+
+        <div class="content_container">
+
+            <div class="celsiusContainer">
+
+                <input type="number" value="0" class="inpBox" id="C_value">
+
+                <p class="desc"> <span>Degree Celsius</span> </p>
+
+            </div>
+
+            <p class="equal">=</p>
+
+            <div class="fahrenheitContainer">
+                <input type="number" value="32" class="inpBox" id="F_value">
+
+                <p class="desc"> <span>Fahrenheit</span> </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        let c = document.getElementById("C_value");
+        let f = document.getElementById("F_value");
+
+        c.addEventListener("input", (inp) => {
+            let c_value = inp.currentTarget.value // to get event value
+            // (inp)  recv event 
+            console.log(c_value)
+            f = (c_value * 9 / 5) + 32
+            console.log(`Farenheit : ${f}`)
+        })
+
+        f.addEventListener("input", (inp) => {
+            f_value = inp.currentTarget.value
+            c = (f_value - 32) * 5 / 9
+
+            console.log(`Celsius : ${c}`)
+        })
+
+    </script>
+</body>
+
+</html>
