@@ -132,15 +132,21 @@
             let c_value = inp.currentTarget.value // to get event value
             // (inp)  recv event 
             console.log(c_value)
-            f = (c_value * 9 / 5) + 32
-            console.log(`Farenheit : ${f}`)
+            f_forConsole = (c_value * 9 / 5) + 32
+            console.log(`Farenheit : ${f_forConsole}`)
+            f.value = f_forConsole.toFixed(4)
+
+
         })
 
         f.addEventListener("input", (inp) => {
             f_value = inp.currentTarget.value
-            c = (f_value - 32) * 5 / 9
+            c_forConsole = (f_value - 32) * 5 / 9
 
-            console.log(`Celsius : ${c}`)
+            console.log(`Celsius : ${c_forConsole}`)
+            c.value = c_forConsole.toFixed(4)
+
+
         })
 
     </script>
