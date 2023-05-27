@@ -1,0 +1,11 @@
+
+
+--> How to get value entered in input element (of html)?
+--> adding eventListener
+--> how to genrate random number in a given range.
+--> calculates random number between 1-10. To dig little deeper, Math.random() generates number from 0(inclusive)-1(exclusive).
+
+Let's say, Math.random()given value as 0.23... * 10 gives 2.3.. + 1 gives 3.3... Hence, Math.floor(3.3) - 3.
+
+
+--> Mixing two project guess number as well as dark-mode. 
