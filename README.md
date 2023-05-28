@@ -10,7 +10,6 @@ I am mentioning some of Snippets of whatever i have `learnt.
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/3a53eb62-87bf-479d-aee4-d7eb2ac98937) ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/af58ece9-c112-49af-964a-8006b195f5ef)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/ec2dbafe-9852-4f20-80ec-d014224348d3)
 
-![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/54ac5dbe-c9f5-4522-85b5-0a0bc70c7c16)
 
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/c6654f63-c704-4fa2-b1a8-dd62a152cff5)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/de58f658-8674-4e33-a91b-193d7d0aa314)
