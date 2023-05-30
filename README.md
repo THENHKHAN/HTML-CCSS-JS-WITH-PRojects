@@ -14,6 +14,7 @@ I am mentioning some of Snippets of whatever i have `learnt.
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/c6654f63-c704-4fa2-b1a8-dd62a152cff5)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/de58f658-8674-4e33-a91b-193d7d0aa314)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/52da8382-ce94-431c-997e-fe3eaf01f6df)
+![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/b8aca052-2bcb-4282-8f7a-c05cd84179e9)
 
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/17b5dab1-d6ac-488d-8391-0d5caee5c7f7)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/917c1fd8-42ea-4808-ad18-c9b9ef0adf45)
