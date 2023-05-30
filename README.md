@@ -7,7 +7,8 @@ We'll update this **readME file** as we Progress.
 I am mentioning some of Snippets of whatever i have `learnt.
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/b152e29f-4c26-4f1f-a3ce-efc1c7b6a7a7)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/becfa51c-999a-445a-8717-2a466c37276c)
-![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/3a53eb62-87bf-479d-aee4-d7eb2ac98937) ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/af58ece9-c112-49af-964a-8006b195f5ef)
+![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/3a53eb62-87bf-479d-aee4-d7eb2ac98937) 
+![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/af58ece9-c112-49af-964a-8006b195f5ef)
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/ec2dbafe-9852-4f20-80ec-d014224348d3)
 
 
