@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanCalculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(82, 71, 203);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            font-size: 37px;
+        }
+
+        h5 {
+            font-size: 22px;
+        }
+
+        .container {
+            border: 2px solid red;
+            background-color: rgb(180, 81, 225);
+            padding: 60px 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: 28px;
+            font-family: 'Segoe UI';
+            font-weight: 490;
+
+        }
+
+        input {
+            padding: 6px;
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Loan Calculator</h2>
+        <p class="loanAmount">Loan Amount:$ <input type="number" id="amount"></p>
+        <p class="intrestRate">Interest Rate:% <input type="number" id="rate"></p>
+        <p class="time">Months To Pay:<input type="number" id="time"></p>
+
+        <h5>Monthly Payment =$<span class="Total"></span></h5>
+    </div>
+
+
+
+    <script>
+
+        console.log("JS is Loaded Successfully");
+    </script>
+
+</body>
+
+</html>
