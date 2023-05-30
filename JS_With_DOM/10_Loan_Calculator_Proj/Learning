@@ -1,0 +1,4 @@
+onchange EVENT :
+onchange event in JavaScript is an important event which is used for the event changes occurring at the time of performing the event.
+--> The onchange is an event attribute. We can listen to the change event to perform the operation based on any change and the onchange attribute is used to associate the functionality for this event. The event is triggered whenever the value of the HTML element changes. The term value differs for several elements like, for input element the value is entered text, for select element the value is selected option, etc.
+--> The onchange in javascript is an event attribute, and we write it inside the tag of the HTML element. The change in the value of an element triggers the change event, and subsequently, a function associated with the event gets executed in which we can perform some state manipulation to reflect the corresponding changes in the Document Object Model according to the last user interaction.

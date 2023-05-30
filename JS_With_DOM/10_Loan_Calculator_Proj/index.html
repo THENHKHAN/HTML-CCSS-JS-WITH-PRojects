@@ -29,6 +29,10 @@
             font-size: 22px;
         }
 
+        p {
+            font-size: 18px;
+        }
+
         .container {
             border: 2px solid red;
             background-color: rgb(180, 81, 225);
@@ -48,6 +52,11 @@
             padding: 6px;
             outline: none;
         }
+
+        .desc {
+            color: yellow;
+            font-size: 19px;
+        }
     </style>
 
 </head>
@@ -56,11 +65,13 @@
 
     <div class="container">
         <h2>Loan Calculator</h2>
-        <p class="loanAmount">Loan Amount:$ <input type="number" id="amount"></p>
-        <p class="intrestRate">Interest Rate:% <input type="number" id="rate"></p>
-        <p class="time">Months To Pay:<input type="number" id="time"></p>
+        <p class="desc">Fill value and press any key</p>
+        <p class="loanAmount">Loan Amount:$ <input type="number" id="amount" onchange="compute()"></p>
+        <p class="intrestRate">Interest Rate:% <input type="number" value="10" id="rate" onchange="compute()">
+        </p>
+        <p class="time">Months To Pay:<input type="number" id="time" value="1" onchange="compute()"></p>
 
-        <h5>Monthly Payment =$<span class="Total"></span></h5>
+        <h5>Monthly Payment =$<span id="payment"></span></h5>
     </div>
 
 
@@ -68,6 +79,24 @@
     <script>
 
         console.log("JS is Loaded Successfully");
+
+        function compute() {
+
+            //    console.log("p : ", val);
+            let amount = document.getElementById("amount").value;
+            let interestRate = document.getElementById("rate").value;
+            let months = document.getElementById("time").value;
+            let interest = (amount * (interestRate * 0.01)) / months // formula 
+
+            let payment = ((amount / months) + interest).toFixed(3) // formula 
+
+            document.getElementById("payment").innerHTML = payment
+
+            console.log("amount : " + amount);
+            console.log("rate :" + interestRate);
+            console.log("amount : " + months);
+            console.log("payment = " + payment);
+        }
     </script>
 
 </body>
