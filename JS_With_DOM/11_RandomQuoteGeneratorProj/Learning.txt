@@ -1,0 +1,12 @@
+
+
+--> In this project i will make a  list of quote along with their Writer/Author.
+-> will make button , when user click it will generate a new quote of the DAY.
+And Also button color changes when user hover at that.
+
+
+-->Learning Array of Dictionary 
+--> key-value pair
+--> how to get value from a Dictionary in a list/array.
+--> click EVENT 
+--> generate random number ,floor function REVISION 
