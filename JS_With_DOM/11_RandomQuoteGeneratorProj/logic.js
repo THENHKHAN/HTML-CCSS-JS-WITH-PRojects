@@ -77,7 +77,7 @@ btn.addEventListener("click", () => {
   console.log(`quote: ${quote.innerHTML}`);
   console.log(`author: ${author.innerHTML}`);
 
-quote.innerHTML=`${quot}`
+quote.innerHTML=`"${quot}"`
 author.innerHTML=`- ${auth}`
 
 });
