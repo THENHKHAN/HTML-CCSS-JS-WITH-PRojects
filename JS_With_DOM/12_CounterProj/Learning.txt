@@ -1,0 +1,17 @@
+Key concepts covered:
+
+document.querySelectorAll()
+forEach()
+addEventListener()
+currentTarget property
+classList
+textContent
+
+--> This project will give you more practice working with the DOM and you can use this simple counter in other projects like a pomodoro clock.
+
+This project has will do the following:
+
+Display the result
+Decrement
+Increment
+Resetting the counter
