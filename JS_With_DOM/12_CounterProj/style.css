@@ -7,5 +7,76 @@
 }
 
 body{
-    background-color: #F6F6FF;
+    background-color: #babaf2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    border: 1px solid red;
+    background-color: whitesmoke;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.heading{
+    font-size: 40px;
+}
+.creater{
+    color: rgb(10, 176, 10);
+}
+
+.display{
+    font-size: 170px;
+    font-weight: bold;
+}
+
+.btns{
+    /* border: 1px solid rgb(0, 51, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px 16px;
+}
+.btns .style{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btns .reset{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.decr:hover , .incr:hover , .reset:hover{
+    color: whitesmoke;
+    transition: ease-in-out;
+    transition: .5s;
+    transition-delay: .1s;
+   
+}
+.incr:hover{
+  background-color: rgb(83, 83, 197);
+}
+
+.reset:hover{
+     background-color: rgb(234, 59, 59);
+}
+
+.decr:hover{
+   background-color: #3bc03f;
 }
