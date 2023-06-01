@@ -8,6 +8,7 @@ classList
 textContent
 --> how to get element and id / class from event handler. how to use ===
 --> how to compare two classes if a elemnt have.
+--> The event handler function takes an argument e, which is an object with a lot of properties. SEE the Counter Function in logic.js file.
 --> This project will give you more practice working with the DOM and you can use this simple counter in other projects like a pomodoro clock.
 
 This project has will do the following:
