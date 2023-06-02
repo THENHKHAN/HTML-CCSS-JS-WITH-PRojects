@@ -1,0 +1,4 @@
+
+            Create a Responsive Navigation Bar in HTML, CSS, and JS!
+
+--> we will be creating a navigation bar that is completely responsive on desktop as well as on mobile devices.
