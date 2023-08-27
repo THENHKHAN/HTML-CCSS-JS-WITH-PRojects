@@ -1,0 +1,6 @@
+**************** My Learning *********************
+
+
+--> How to use addEventListener function 
+--> How to style elements using JS.
+--> How to make simple Card and add image there along with styling.
