@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(109.6deg, rgb(243, 67, 67) 11.2%, rgb(2, 38, 208) 100.2%);
+
+}
+
+.container{
+
+   min-height: 100vh;
+   width: 100%;
+}
+
+.todo_app img{
+    width: 40px;
+    height: 50px;
+
+}
+
+.todo_app .heading{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* border: 1px red solid; */
+    align-items: center;
+}
+
+.todo_app{
+    border: 3px green solid;
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+}
+
+.todo_app .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin: 25px auto;
+    background: #edeef0;
+
+}
+
+.todo_app .row input{
+    flex: 1;
+    border: none;
+    outline: navajowhite;
+    background:transparent;
+    padding: 10px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.todo_app .row button{
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ff5945;
+    color: #fff;
+    padding: 16px 50px;
+    border-radius: 40px;
+    
+
+
+}
+
+ul li {
+    list-style: none;
+    padding: 12px 8px 12px 40px;
+    font-size:18px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+/*  for making circle before each task */
+ul li::before{ 
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    left: 12px;
+    top: 12px;
+    
+
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration:line-through ;
+
+}
+
+ul li.checked::before{
+   
+    background-image: url(images/checked.png);
+
+}
+
+/*  adding css in 'X' generated child icon of li via JS */
+ul li span{
+/* background-color: rgb(164, 231, 233); */
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    /* color: #555; */
+    color: rgb(196, 35, 35);
+    line-height: 40px;
+    text-align: center;
+    border-radius: 40%;
+
+
+}
+
+ul li span:hover{
+
+    background-color: #edeef0;
+}
+
+
