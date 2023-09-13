@@ -1,0 +1,13 @@
+
+
+
+--> How to set dynamically element content (ex: temp , wind , img).
+
+--> how to grap/get the input data from a input element.
+
+--> How to get API and fetch in JS using fetch method.
+
+        ## How to customize api URL (metric,?q , &)
+        ## How to select and use the API respose data. 
+        ## API Used: https://api.openweathermap.org/data
+        ## noorulFlurUsed to get the API key
