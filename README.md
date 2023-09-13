@@ -12,7 +12,7 @@ I am mentioning some of Snippets of whatever i have `learnt.
 ![image](JS_With_DOM/15_Todo-List_cumNote/image.png)
 
 ## NHKHAN weatherAPP ##
-![image](JS_With_DOM\16_weatherApp\App_SS\image-1.png)
+![image](JS_With_DOM/16_weatherApp/App_SS/image-1.png)
 
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/82fbc08e-0eae-40c9-b179-e04362453677)
 **After Clicking** :
