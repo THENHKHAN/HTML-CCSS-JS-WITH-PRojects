@@ -8,7 +8,7 @@ const weatherCard = document.querySelector('.weather')
 
 
 
-const apiKey="ec7754f16bcd129dfbbcfbab90ed23a1"
+const apiKey="key"
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?&units=metric&q=`
 
 // let exApi =`https://api.openweathermap.org/data/2.5/weather?q=bengaluru&appid=${apiKey}&units=metric`
