@@ -9,7 +9,7 @@ I am mentioning some of Snippets of whatever i have `learnt.
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/becfa51c-999a-445a-8717-2a466c37276c)
 
 **if city is entered :My Note**
-JS_With_DOM/15_Todo-List_cumNote/image.png
+![image](JS_With_DOM/15_Todo-List_cumNote/image.png)
 
 ![image](https://github.com/THENHKHAN/HTML-CSS-JS-WITH-PRojects/assets/92791314/82fbc08e-0eae-40c9-b179-e04362453677)
 **After Clicking** :
