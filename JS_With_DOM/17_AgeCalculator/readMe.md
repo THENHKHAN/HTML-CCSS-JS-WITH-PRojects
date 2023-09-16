@@ -1,6 +1,6 @@
 
-### Here you can calculate your age. By just entering you birth date###
+### Here you can calculate your age. By just entering you birth date
 
-## App:##
+## App: 
 
 ![ss](appImg.png)
