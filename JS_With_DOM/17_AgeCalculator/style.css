@@ -13,9 +13,11 @@ body{
     background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
     text-align: center;
 }
-
+span{
+    color: red;
+}
 .container {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -36,13 +38,16 @@ label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    font-size: 17px;
 }
 
 input[type="date"] {
     width: 100%;
+    font-size: 20px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    color: #104c8c;
 }
 
 button {
@@ -60,7 +65,7 @@ button:hover {
 
 p#result {
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
 }
 
