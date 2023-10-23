@@ -14,6 +14,5 @@ And many more. I have already so many **comments with the code** for understandi
 #### page-3:
 ![3](App_SS/3.jpg)
 #### page-4:
-![4](App_SS/4.jpg)
-#### page-5:
 ![5](App_SS/5.jpg)
+
