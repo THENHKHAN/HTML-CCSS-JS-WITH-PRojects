@@ -10,6 +10,9 @@ body{
     background-color: #39297b;
     color: #fff;
 }
+span{
+    color:  #ff3929ff;
+}
 h1{
     text-align: center;
     margin: 100px auto;
